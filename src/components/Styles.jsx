@@ -1,26 +1,25 @@
 import styled from 'styled-components'
 
-const Navigation = styled.ul`
-    list-style-type: none;
+const Map = styled.div`
+    height: 100%;
+    width: 100%;
 
-    display: flex;
-    justify-content: space-evenly;
+    background-color: cyan;
 `
 
-const Item = styled.li`
-    display: inline;
+const Wall = styled.div`
+    height: 70%;
+    width: 5%;
+
+    background-color: red;
+    position: absolute;
+    bottom: 0;
 `
 
-const Link = styled.a`
-    color: grey;
-
-    :visited {
-        color: grey;
-    }
-
-    :hover {
-        color: black;
-    }
+const Char = styled.div`
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
 `
 
-export { Navigation, Item, Link }
+export { Map, Wall, Char }
