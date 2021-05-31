@@ -1,9 +1,8 @@
-import { Map, Wall, Char } from './Styles'
+import { Map, Wall } from './Styles'
 
 export const Carousel = () => {
     return (
         <Map>
-            <Char />
             <Wall />
         </Map>
     )

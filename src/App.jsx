@@ -1,4 +1,5 @@
 import { Carousel } from './components/Carousel'
+import { Char } from './components/Styles'
 import styled from 'styled-components'
 
 const Container = styled.main`
@@ -13,6 +14,7 @@ const Container = styled.main`
 export const App = () => {
     return (
         <Container>
+            <Char id = 'char' />
             <Carousel />
         </Container>
     )

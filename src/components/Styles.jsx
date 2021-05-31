@@ -14,12 +14,19 @@ const Wall = styled.div`
     background-color: red;
     position: absolute;
     bottom: 0;
+    left: 1000px
 `
 
 const Char = styled.div`
     height: 100px;
     width: 100px;
     background-color: yellow;
+    border-radius: 50%;
+
+    position: absolute;
+
+    left: 30%;
+    bottom: calc(50% - 50px);
 `
 
 export { Map, Wall, Char }
